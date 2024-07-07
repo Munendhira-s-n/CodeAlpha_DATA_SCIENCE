@@ -1,0 +1,25 @@
+Insurance Charges Prediction using Linear Regression
+Predicting insurance charges using Linear Regression model.
+
+Overview
+This project utilizes Linear Regression to predict insurance charges based on various demographic and health-related attributes of individuals.
+
+Dataset
+The dataset (insurance.csv) used in this project includes the following columns:
+
+age: Age of the individual
+sex: Gender of the individual (0 = male, 1 = female)
+bmi: Body mass index (BMI) of the individual
+children: Number of children/dependents covered by the insurance
+smoker: Smoking status of the individual (0 = no, 1 = yes)
+region: Region where the individual resides (encoded as dummy variables for modeling purposes)
+charges: Insurance charges billed to the individual
+Project Structure
+Data Preprocessing: Handling missing values (if any), encoding categorical variables (sex, smoker, region), and splitting data into training and testing sets.
+Model Development: Implementing Linear Regression model using Scikit-learn.
+Model Evaluation: Assessing model performance using Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R2) score.
+Visualization: Plotting actual vs predicted charges and residuals analysis.
+Files
+insurance.csv: Raw dataset used for analysis and model training.
+linear_regression.ipynb: Jupyter Notebook containing the Python code for data preprocessing, model development, and evaluation.
+requirements.txt: List of Python packages required to run the code
