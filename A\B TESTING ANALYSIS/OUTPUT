@@ -1,0 +1,17 @@
+auction_id experiment  ... yes  no
+0  0008ef63-77a7-448b-bd1e-075f42c55e39    exposed  ...   0   0
+1  000eabc5-17ce-4137-8efe-44734d914446    exposed  ...   0   0
+2  0016d14a-ae18-4a02-a204-6ba53b52f2ed    exposed  ...   0   1
+3  00187412-2932-4542-a8ef-3633901c98d9    control  ...   0   0
+4  001a7785-d3fe-4e11-a344-c8735acacc2c    control  ...   0   0
+
+[5 rows x 9 columns]
+Index(['auction_id', 'experiment', 'date', 'hour', 'device_make',
+       'platform_os', 'browser', 'yes', 'no'],
+      dtype='object')
+Control Mean: 0.06484893146647015
+Experiment Mean: nan
+T-statistic: nan
+P-value: nan
+No statistically significant difference found.
+Actionable insight: Re-evaluate the intervention or change as it did not show a significant impact.
